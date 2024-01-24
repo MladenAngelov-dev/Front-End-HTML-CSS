@@ -1,0 +1,47 @@
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 3em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+    font-weight: 400;
+
+}
+tr:nth-child(odd) {
+    background-color: rgb(233, 233, 233);
+}
+
+th,
+td {
+    font-weight: 200;
+    width: 35%;
+    height: 1.2em;
+    border: 1px solid rgb(172, 172, 172);
+    padding: 3px 10px;
+}
+table {
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+thead >tr >th {
+    font-weight: 600;
+    background-color: rgb(206, 205, 205);;
+}
+
+blockquote {
+    padding: 1em;
+    font-style: italic;
+    margin: 1.5em 2em;
+    border-left: 3px solid rgb(221, 221, 221);
+
+}
+
+blockquote > footer {
+    position: relative;
+    margin: 0.5em 95%;
+}

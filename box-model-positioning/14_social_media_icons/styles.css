@@ -1,0 +1,37 @@
+
+body {
+    margin: 3em;
+    padding: 3em;
+}
+
+li {
+    display: inline-block;
+    width: 2em;
+    margin-left: 2em;
+    padding: 1em;
+    border: 1px solid lightgray;
+    border-radius: 3em;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.fb svg:hover {
+    fill: blue;
+    cursor: pointer;
+}
+.tw svg:hover {
+    fill: rgb(77, 208, 248);
+    cursor: pointer;
+}
+.go svg:hover {
+    fill: rgb(199, 68, 7);
+    cursor: pointer;
+}
+.lk svg:hover {
+    fill: rgb(0, 160, 189);
+    cursor: pointer;
+}
+.ins svg:hover {
+    fill: rgb(48, 214, 255);
+    cursor: pointer;
+}

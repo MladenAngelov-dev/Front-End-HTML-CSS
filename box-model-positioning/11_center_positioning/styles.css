@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+section {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h3 {
+    font: 1em/1.2 Georgia, serif;
+    font-weight: 700;
+}
+
+img {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+}
+section {
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+}
+
+h3, p {
+    margin-left: 2em;
+}
+
+section > div > a {
+    float: right;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    text-decoration: none;
+    background-color: rgb(0, 153, 0);
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 0.2em;
+}
+
+section {
+    box-shadow: 0 0 1.5em 0 rgb(21, 24, 27);
+    border-radius: 0.5em;
+}
